@@ -3,6 +3,15 @@
     <title>Live Search Using typehead (twitter)</title>
     <script src="jquery.min.js"></script>
     <script src="typeahead.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      $('input.typeahead').typeahead({
+        name: 'typeahead',
+        remote:'search.php?key=%QUERY',
+        limit : 10
+      });
+    });
+    </script>
   </head>
   <body>
      <input type="text" name="typeahead">
