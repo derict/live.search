@@ -1,1 +1,4 @@
 30.10.2015 Write first script.
+02.11.2015
+- prevent blank query using isset
+- adding identifier using 'get' method to query
