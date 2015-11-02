@@ -1,6 +1,6 @@
 <?php
     $key=$_GET['key'];
-	$col=$_GET['col'];
+    $col=$_GET['col'];
     $array = array();
     $con=mysql_connect("localhost","root","root");
     $db=mysql_select_db("library",$con);
